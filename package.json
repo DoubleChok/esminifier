@@ -3,7 +3,10 @@
   "version": "0.0.1",
   "description": "Minifier for large libraries",
   "main": "index.js",
-  "repository": "https://github.com/gero3/esminifier",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gero3/esminifier.git"
+  },
   "author": "gero3",
   "license": "MIT",
   "dependencies": {
@@ -14,5 +17,15 @@
     "esvalidate": "^0.1.3",
     "mkdirp": "^0.5.1",
     "uglify-js": "^2.6.2"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/gero3/esminifier/issues"
+  },
+  "homepage": "https://github.com/gero3/esminifier#readme",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "keywords": [
+    "minifier"
+  ]
 }
