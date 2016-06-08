@@ -4,7 +4,7 @@ var esprima = require("esprima");
 var mkdirp = require("mkdirp");
 var diff = require('deep-diff').diff;
 
-var libraries = ["Three.js", "Three.min.js", "pdf.js", "pdf.worker.js","babylon.js","d3.js","jquery-2.2.4.js","ammo.js","angular.js","react-with-addons.js","moment.js"];
+var libraries = ["Three.js", "Three.min.js", "pdf.js", "pdf.worker.js","babylon.js","d3.js","jquery-2.2.4.js","ammo.js","angular.js","react-with-addons.js","moment.js","ember.debug.js","Chart.js","codemirror.js"];
         
 mkdirp("./test/minifiedlibs/", function(){
 
