@@ -13,8 +13,10 @@
     "esprima": "^2.7.2"
   },
   "devDependencies": {
+    "coveralls": "^2.11.9",
     "deep-diff": "^0.3.4",
     "esvalidate": "^0.1.3",
+    "istanbul": "^0.4.3",
     "mkdirp": "^0.5.1",
     "uglify-js": "^2.6.2"
   },
@@ -23,7 +25,8 @@
   },
   "homepage": "https://github.com/gero3/esminifier#readme",
   "scripts": {
-    "test": "node test/index.js"
+    "test": "node test/index.js",
+    "coverage": "./node_modules/.bin/istanbul cover test/index.js"
   },
   "keywords": [
     "minifier"

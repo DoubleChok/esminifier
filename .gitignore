@@ -1,3 +1,4 @@
 .c9/*
 test/minifiedlibs/*
 node_modules/*
+coverage/*

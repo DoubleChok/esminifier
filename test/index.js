@@ -14,7 +14,7 @@ mkdirp("./test/minifiedlibs/", function(){
             var source = fs.readFileSync("./test/libs/" + libraries[i]);
             
             console.log(libraries[i] + " starts minifying.");
-            var minified = esminify.minify(source);
+            var minified = esminify.minify(source,{manipulate:false});
             fs.writeFileSync("./test/minifiedlibs/" + libraries[i],minified,"utf8"); 
             console.log(libraries[i] + " is minified. Starting to check it now. ");
             
